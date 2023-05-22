@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html>
+
+  <head>
+    <title>contact</title>
+    <style type="text/css">
+      header,
+      footer {
+        padding: 10px;
+        background-color: green;
+        color: white;
+        text-align: center;
+      }
+
+      nav ul li {
+        display: inline;
+        padding: 20px;
+        background-color: black;
+        color: white;
+      }
+
+      a {
+        color: white;
+      }
+
+      form {}
+    </style>
+  </head>
+
+  <body>
+    <header>
+      <h1>welcome to my portfolio</h1>
+    </header>
+    <!--this is used to make commennt -->
+
+    <nav>
+      <ul>
+        <li><a href="index.html" target="_self">home</a></li>
+        <li><a href="interest.html">intrest</a></li>
+        <li><a href="friendlist.html">Friend list</a></li>
+        <li><a href="gallery.html">Gallery</a></li>
+        <li><a href="contact.html">contact me</a></li>
+      </ul>
+    </nav>
+
+    <h3>contact Me</h3>
+
+    <form action="mailto:rujal.shrestha380@gmail.com">
+      <fieldset>
+        <legend>Enter your detail</legend>
+        <div>
+          <label for="name">Name:</label>
+          <input type="text" name="myname" id="name" placeholder="enter your name" required>
+        </div>
+        <div>
+          Address:
+          <input type="text" name="myaddress">
+        </div>
+        <div>
+          email: <input type="email" name="myemail" id="">
+        </div>
+        <div>
+          Date: <input type="date" name="mydate" id="">
+        </div>
+        <div>
+          Bonus in number:<input type="number" name="mynumber" id="">
+        </div>
+        <div>
+          choose your country:
+          <select>
+            <option>nepal</option>
+            <option selected>china</option>
+            <option>india</option>
+          </select><br>
+        </div>
+        <div>
+          message: <br> <textarea name="" id="" cols="30" rows="10"></textarea>
+        </div>
+        <div>
+          Are you eligible: <input type="checkbox" name="myeligible" id="">
+        </div>
+        <div>
+          gender: male <input type="radio" name="mygenderr" id="">
+          female <input type="radio" name="mygenderr" id="">
+          other <input type="radio" name="mygenderr" id="">
+        </div>
+        <div>
+          <input type="submit" value="submit now">
+          <input type="reset" value="reset now">
+        </div>
+
+
+      </fieldset>
+    </form>
+  </body>
+
+</html>
